@@ -1,4 +1,6 @@
+import { AdminLayout } from "../../layouts";
+
 const Home = () => {
-  return <div className="text-center">Home</div>;
+  return <AdminLayout className="text-center">Home</AdminLayout>;
 };
 export default Home;
