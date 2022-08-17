@@ -1,0 +1,13 @@
+.dropdown {
+    color: purple;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    align-items: center;
+    width: 100%;
+}
+
+.dropdownLink {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
