@@ -14,11 +14,7 @@ export const AuthLayout = ({
 }) => {
   return (
     <div
-<<<<<<< HEAD
-      className={`relative flex lg:h-screen items-center overflow-x-hidden ${
-=======
       className={`flex lg:h-screen items-center overflow-x-hidden ${
->>>>>>> e08f6a5 (feat: auth pages ui)
         position === "right" ? "lg:flex-row " : "lg:flex-row-reverse"
       } flex-col 
       
@@ -36,11 +32,7 @@ export const AuthLayout = ({
           className="lg:w-auto lg:h-auto w-[100px] flex lg:hidden"
         />
       </aside>
-<<<<<<< HEAD
-      <main className="flex flex-col justify-center lg:px-[67px] px-[20px] w-full lg:w-5/12 mt-[80px] max-w-[600px] lg:mx-auto">
-=======
       <main className="flex flex-col justify-center lg:px-[67px] px-[20px] w-full lg:w-5/12">
->>>>>>> e08f6a5 (feat: auth pages ui)
         <h2 className="font-bold lg:text-[48px] text-[24px] text-primary mb-[14px] ">
           {title}
         </h2>
