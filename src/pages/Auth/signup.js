@@ -69,7 +69,11 @@ const SignUp = () => {
           By creating an account, you agree to the Terms & Conditions and the
           Privacy policy
         </p>
+<<<<<<< HEAD
         <p className="lg:mt-[76px] mt-[50px]">
+=======
+        <p className="mt-[76px]">
+>>>>>>> e08f6a5 (feat: auth pages ui)
           Already have an account?
           <Link to="/login" className="font-semibold">
             {" "}

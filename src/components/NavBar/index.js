@@ -18,36 +18,14 @@ function NavBar() {
     <div>
       <div className="navBar">
         <div className="navBar__left">
-          <Link to="/">
-            {" "}
-            <img src={NavLogo} alt="NavLogo" />
-          </Link>
-          {/*<Link to="/" className="hamburgerAlt left">
-            {" "}
-            About{" "}
-          </Link>
-          <Link to="/" className="hamburgerAlt left">
-            {" "}
-            How it works{" "}
-  </Link>*/}
+          <Link to='/'> <img src={NavLogo} alt="NavLogo" /></Link>
+          <Link to='/' className='hamburgerAlt left'> About </Link>
+          <Link to='/' className='hamburgerAlt left'> How it works </Link>
         </div>
         <div className="navBar__right">
-<<<<<<< HEAD
-          <Link to="/login" className="hamburgerAlt right">
-            {" "}
-            Login{" "}
-          </Link>
-          <Button className="hamburgerAlt bg-primary text-white normal-case">
-            {" "}
-            <Link to="/signup"> Join Now </Link>{" "}
-          </Button>
-          <MenuIcon className="hamburger" onClick={() => setOpen(!open)} />
-=======
           <Link to='/login' className='hamburgerAlt right'> Login </Link>
-          <Btn />
-          <Menu className="hamburger"  onClick={() => setOpen(!open)} />
-        
->>>>>>> 9f63ef5 (hopefully this goes well)
+          <Button className='hamburgerAlt bg-primary text-white normal-case'> <Link to='/signup'> Join Now </Link> </Button>
+          <MenuIcon className="hamburger"  onClick={() => setOpen(!open)} />
         </div>
       </div>
       <div className="dropdown">{open && <DropDown />}</div>
