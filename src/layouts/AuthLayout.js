@@ -14,10 +14,13 @@ export const AuthLayout = ({
 }) => {
   return (
     <div
-      className={`flex lg:h-screen items-center overflow-x-hidden ${
+      className={`relative flex lg:h-screen items-center overflow-x-hidden ${
         position === "right" ? "lg:flex-row " : "lg:flex-row-reverse"
-      } flex-col`}>
-      <aside className="lg:w-7/12 w-full lg:bg-primary lg:h-screen flex items-center justify-center py-6">
+      } flex-col 
+      
+      `}>
+      <aside
+        className={`lg:w-7/12 w-full lg:bg-primary lg:h-screen flex items-center justify-center py-6 bg-white shadow lg:shadow-none fixed lg:relative top-0  lg:py-2 lg:pt-2 z-30 lg:z-0`}>
         <img
           src={LogoLarge}
           alt="logo"
@@ -29,7 +32,7 @@ export const AuthLayout = ({
           className="lg:w-auto lg:h-auto w-[100px] flex lg:hidden"
         />
       </aside>
-      <main className="flex flex-col justify-center lg:px-[67px] px-[20px] w-full lg:w-5/12">
+      <main className="flex flex-col justify-center lg:px-[67px] px-[20px] w-full lg:w-5/12 mt-[80px] max-w-[600px] lg:mx-auto">
         <h2 className="font-bold lg:text-[48px] text-[24px] text-primary mb-[14px] ">
           {title}
         </h2>

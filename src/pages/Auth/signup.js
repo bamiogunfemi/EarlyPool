@@ -69,7 +69,7 @@ const SignUp = () => {
           By creating an account, you agree to the Terms & Conditions and the
           Privacy policy
         </p>
-        <p className="mt-[76px]">
+        <p className="lg:mt-[76px] mt-[50px]">
           Already have an account?
           <Link to="/login" className="font-semibold">
             {" "}
