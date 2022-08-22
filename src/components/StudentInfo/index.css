@@ -1,0 +1,43 @@
+.StudentInfo {
+    color: #47236C;
+}
+
+.StudentInfo > h2 {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.para {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.foot {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.foot__foot {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1005px) {
+    .StudentInfo > h2 {
+        font-size: 40px;
+    }
+
+    .para {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom:35px;
+    }
+
+    .foot {
+        margin-top: 20px;
+    }
+}

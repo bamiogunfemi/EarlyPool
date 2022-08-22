@@ -1,0 +1,14 @@
+.build {
+    width: 85%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .build {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+}
