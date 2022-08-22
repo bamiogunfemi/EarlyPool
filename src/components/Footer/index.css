@@ -1,0 +1,21 @@
+footer {
+    color: white;
+    width: 100%;
+    border-top: 1px black solid;
+    height: 35vh;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    line-height: 2rem;
+    font-size: 12px;
+}
+
+.footer__info {
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1200px) {
+    footer {
+        font-size: 16px;
+    }
+}
