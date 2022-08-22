@@ -4,7 +4,7 @@ import "./index.css";
 import NavLogo from "../../assets/images/Group 7 1.svg";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
-import Button from '../Button';
+import Btn from '../Btn'
 import { useState } from "react";
 
 function NavBar() {
@@ -29,7 +29,7 @@ function NavBar() {
         </div>
         <div className="navBar__right">
           <Link to='/login' className='hamburgerAlt right'> Login </Link>
-          <Button />
+          <Btn />
           <MenuIcon className="hamburger"  onClick={() => setOpen(!open)} />
         
         </div>

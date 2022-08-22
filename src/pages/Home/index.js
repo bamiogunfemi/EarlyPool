@@ -6,7 +6,7 @@ import Meet from '../../components/Meet';
 import Footer from '../../components/Footer';
 
 const Home = () => {
-  return <AdminLayout>
+  return (
   <div>
   <NavBar />
   <Hero />
@@ -15,6 +15,6 @@ const Home = () => {
   <Meet />
   <Footer />
 </div>
-  </AdminLayout>
+  )
 };
 export default Home;
