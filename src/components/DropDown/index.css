@@ -10,12 +10,4 @@
     padding: 20px;
     display: flex;
     justify-content: center;
-    color: #2F1747;
-}
-
-button {
-    border-radius: 8px;
-    text-transform: inherit;
-    font-size: 15px;
-    display: block;
 }

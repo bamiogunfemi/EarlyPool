@@ -1,4 +1,3 @@
-import { AdminLayout } from "../../layouts";
 import NavBar from "../../components/NavBar";
 import Hero from '../../components/Hero';
 import BuildCarreer from '../../components/BuildCarreer';
@@ -16,6 +15,6 @@ const Home = () => {
   <Meet />
   <Footer />
 </div>
-  </AdminLayout>;
+  </AdminLayout>
 };
 export default Home;
