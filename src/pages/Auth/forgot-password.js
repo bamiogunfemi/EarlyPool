@@ -17,13 +17,16 @@ const ResetPassword = () => {
   };
   if (error) return showError(error.message);
 
+
   return (
     <AuthLayout
       position="left"
       className="text-center"
       title="Reset Password"
       description="A link to reset your password will be sent to your email address">
+
       <form onSubmit={onResetPassword} className="text-primary">
+
         <fieldset className="mt-[40px] ">
           <Input
             onChange={(e) => setEmail(e.target.value)}
@@ -31,6 +34,7 @@ const ResetPassword = () => {
             placeholder="Email"
             name="email"
             required={true}
+
             value={email}
             className={"mb-[24px]"}
           />
@@ -38,6 +42,7 @@ const ResetPassword = () => {
         <Button loading={loading} type="submit">
           Reset Password
         </Button>
+
       </form>
     </AuthLayout>
   );
