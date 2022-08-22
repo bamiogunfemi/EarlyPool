@@ -16,8 +16,8 @@ export const AdminLayout = ({ children, title }) => {
   const navigate = useNavigate();
   const fetchUserName = async () => {
     try {
-      const q = query(collection(db, "users"), where("uid", "==", user?.uid));
-      const doc = await getDocs(q);
+      const u = query(collection(db, "users"), where("uid", "==", user?.uid));
+      const doc = await getDocs(u);
       const data = doc.docs[0].data();
       setCurrentUser(data);
     } catch (err) {
