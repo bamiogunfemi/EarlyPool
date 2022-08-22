@@ -3,15 +3,17 @@ import Logo from "../../assets/images/logo-white.svg";
 
 export const NavDash = ({ navItems }) => {
   return (
-    <aside className="bg-primary w-[350px] h-screen lg:flex hidden flex-col pt-[64px] ">
+    <aside className="bg-primary w-[380px] h-screen lg:flex hidden flex-col pt-[64px] ">
       <img
         src={Logo}
         alt="logo"
         className="w-[165px] h-[32px] mb-[106px] ml-[74px]"
       />
-      {navItems.map(({ name, link, icon }) => (
+      {navItems.map(({ name, link, icon, onClick }) => (
         <NavLink
+          key={name}
           to={link ?? ""}
+          onClick={onClick ?? null}
           className={({ isActive }) =>
             `flex items-center ml-[40px] ${
               isActive
