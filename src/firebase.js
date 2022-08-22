@@ -3,11 +3,10 @@ import {
   getAuth,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
-  sendPasswordResetEmail,
   signOut,
 } from "firebase/auth";
 import { getFirestore, collection, addDoc } from "firebase/firestore";
-import { showError, showSuccess } from "./components";
+import { showError } from "./components";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAck2ysRR5APfam4jLkRimXP8skcaiagFI",
@@ -46,16 +45,6 @@ const registerWithEmailAndPassword = async (userDetails, email, password) => {
   }
 };
 
-const sendPasswordReset = async (email) => {
-  try {
-    const sendEmail = await sendPasswordResetEmail(auth, email);
-    console.log(sendEmail);
-    // showSuccess("Password reset link sent!");
-  } catch (err) {
-    showError(err.message);
-  }
-};
-
 const logout = () => {
   signOut(auth);
   window.location.href = "/login";
@@ -66,6 +55,5 @@ export {
   db,
   logInWithEmailAndPassword,
   registerWithEmailAndPassword,
-  sendPasswordReset,
   logout,
 };
