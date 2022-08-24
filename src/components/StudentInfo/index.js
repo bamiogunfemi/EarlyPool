@@ -1,15 +1,16 @@
 import React from 'react'
 import Packages from '../Packages'
 import './index.css'
-import CaseLogo from '../../assets/images/Vector (2).svg'
-import BookLogo from '../../assets/images/Vector 55.svg'
-import TrackLogo from '../../assets/images/Vector (3).svg'
-import CommunityLogo from '../../assets/images/Ellipse 41.svg'
+import CaseLogo from '../../assets/images/Group 43241.png'
+import BookLogo from '../../assets/images/Group 43242.svg'
+import TrackLogo from '../../assets/images/Group 43243.svg'
+import CommunityLogo from '../../assets/images/Group 43244.svg'
 
 function index({header, para, figure, figureText}) {
+
   return (
     <div>
-      <div className='StudentInfo'>
+      <div className= 'StudentInfo'>
         <h2>{header}</h2>
         <p className='para'>{para}</p>
         <Packages Logo={CaseLogo} LogoText='Unlimited Job Opportunities'/>

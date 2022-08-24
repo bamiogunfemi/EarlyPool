@@ -1,17 +1,10 @@
 .StudentImg {
-    width: 280px;
+    width: 100%;
     margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
-    .StudentImg {
-        width: 70%;
-    }
-}
-
-@media only screen and (min-width: 1005px) {
+@media only screen and (min-width: 1200px) {
     .StudentImg {
         width: 35%;
-        
     }
 }

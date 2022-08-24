@@ -2,7 +2,7 @@ import React from "react";
 import DropDown from "../DropDown";
 import "./index.css";
 import NavLogo from "../../assets/images/Group 7 1.svg";
-import MenuIcon from "@mui/icons-material/Menu";
+import { Menu } from "react-feather";
 import { Link } from "react-router-dom";
 import Btn from '../Btn'
 import { useState } from "react";
@@ -30,7 +30,7 @@ function NavBar() {
         <div className="navBar__right">
           <Link to='/login' className='hamburgerAlt right'> Login </Link>
           <Btn />
-          <MenuIcon className="hamburger"  onClick={() => setOpen(!open)} />
+          <Menu className="hamburger"  onClick={() => setOpen(!open)} />
         
         </div>
       </div>

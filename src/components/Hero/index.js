@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 import WetectLogo from '../../assets/images/image 3.svg'
-import HeroImage from '../../assets/images/unsplash_dnL6ZIpht2s.png'
+import HeroImage from '../../assets/images/Group 43238.png'
 import { Link } from "react-router-dom";
 
 function index() {
