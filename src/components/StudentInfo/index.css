@@ -1,5 +1,6 @@
 .StudentInfo {
     color: #47236C;
+
 }
 
 .StudentInfo > h2 {
@@ -26,7 +27,12 @@
     font-weight: 700;
 }
 
-@media only screen and (min-width: 1005px) {
+@media only screen and (min-width: 1200px) {
+    .StudentInfo {
+        width: 70%;
+        margin-left: auto;
+    }
+
     .StudentInfo > h2 {
         font-size: 40px;
     }
