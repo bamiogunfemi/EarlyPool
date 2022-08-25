@@ -48,10 +48,6 @@
         font-weight: 700;
     }
 
-    .meet__img {
-        background-color: blue;
-    }
-
     .meet__img > img{
        width: 1500px;
        height: 70vh;
