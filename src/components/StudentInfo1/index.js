@@ -10,7 +10,7 @@ function index({header, para, figure, figureText}) {
 
   return (
     <div>
-      <div className= 'StudentInfo'>
+      <div className= 'studentInfo1'>
         <h2>{header}</h2>
         <p className='para'>{para}</p>
         <Packages Logo={CaseLogo} LogoText='Unlimited Job Opportunities'/>

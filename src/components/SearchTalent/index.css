@@ -1,4 +1,4 @@
-.build {
+.search {
     width: 85%;
     justify-content: center;
     margin: auto;
@@ -6,7 +6,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .build {
+    .search {
         display: flex;
         justify-content: space-between;
         width: 90%;

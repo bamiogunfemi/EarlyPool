@@ -3,7 +3,7 @@ import React from 'react'
 
 function index({StudentImage}) {
   return (
-    <div className='StudentImg'>
+    <div className='studentImg'>
       <img src={StudentImage} alt="StudentImage" />
     </div>
   )
