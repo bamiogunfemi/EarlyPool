@@ -1,10 +1,11 @@
-.StudentImg {
+.studentImg {
     width: 100%;
     margin: 0 auto;
 }
 
 @media only screen and (min-width: 1200px) {
-    .StudentImg {
-        width: 35%;
+    .studentImg {
+        width: 33%;
+        margin: 0;
     }
 }

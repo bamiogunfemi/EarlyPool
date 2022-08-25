@@ -1,9 +1,9 @@
-.StudentInfo {
+.studentInfo1 {
     color: #47236C;
 
 }
 
-.StudentInfo > h2 {
+.studentInfo1 > h2 {
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 0px;
@@ -28,11 +28,11 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .StudentInfo {
-        padding-left: 22%;
+    .studentInfo1 {
+        width: 70%;
     }
 
-    .StudentInfo > h2 {
+    .studentInfo1 > h2 {
         font-size: 40px;
     }
 
