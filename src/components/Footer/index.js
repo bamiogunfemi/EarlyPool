@@ -3,7 +3,7 @@ import React from "react";
 
 function index() {
   return (
-    <div className="bg-primary">
+    <div className="bg-white">
       <footer >
         <div className="footer__info">
           <h2>Contact Us </h2>
