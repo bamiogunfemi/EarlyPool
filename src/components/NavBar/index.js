@@ -22,14 +22,14 @@ function NavBar() {
             {" "}
             <img src={NavLogo} alt="NavLogo" />
           </Link>
-          <Link to="/" className="hamburgerAlt left">
+          {/*<Link to="/" className="hamburgerAlt left">
             {" "}
             About{" "}
           </Link>
           <Link to="/" className="hamburgerAlt left">
             {" "}
             How it works{" "}
-          </Link>
+  </Link>*/}
         </div>
         <div className="navBar__right">
 <<<<<<< HEAD

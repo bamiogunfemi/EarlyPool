@@ -55,8 +55,9 @@
 }
 
 @media only screen and (min-width: 1200px) { 
+
     .meet__text {
-        padding: 50px 40px;
+        padding: 50px 70px;
         width: 90%;
     }
 

@@ -8,7 +8,7 @@ function index() {
   return (
     <div>
       <div className='search'>
-      <StudentInfo1 header='Searching For The Best Student Talent?' para='We connect  students to the best opportunities and help companies hire the best student talents.' figure='100+' figureText='Recruiters Registered'/>
+      <StudentInfo1 header='Searching For The Best Student Talent?' para='Hire the best students for your internship, co-op and research' figure='100+' figureText='Recruiters Registered'/>
         <StudentImg StudentImage={StudentImage}/>
       </div>
     </div>

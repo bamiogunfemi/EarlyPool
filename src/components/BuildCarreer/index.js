@@ -2,7 +2,7 @@ import './index.css'
 import React from 'react'
 import StudentImg from '../StudentImg'
 import StudentInfo from '../StudentInfo'
-import StudentImage from '../../assets/images/Group 43239.png'
+import StudentImage from '../../assets/images/Group 43245.png'
 
 function index() {
   return (
