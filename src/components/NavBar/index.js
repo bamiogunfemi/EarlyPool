@@ -28,10 +28,12 @@ function NavBar() {
           </Link>
         </div>
         <div className="navBar__right">
+
           <Link to='/login' className='hamburgerAlt right'> Login </Link>
           <Btn />
           <MenuIcon className="hamburger"  onClick={() => setOpen(!open)} />
         
+
         </div>
       </div>
       <div className="dropdown">{open && <DropDown />}</div>
