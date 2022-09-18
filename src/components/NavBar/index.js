@@ -19,7 +19,7 @@ function NavBar() {
           <Link to='/' className='hamburgerAlt left'> How it works </Link>
         </div>
         <div className="navBar__right">
-        <Link to='/login' className='hamburgerAlt right'> Login </Link>
+        <Link to='/login' className='hamburgerAlt right'> Sign in </Link>
         <Btn />
         <Menu className="hamburger"  onClick={() => setOpen(!open)} />
         </div>

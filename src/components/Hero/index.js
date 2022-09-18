@@ -12,7 +12,7 @@ function index() {
           <div className="hero__description--content">
             <h2>The Easiest Way To Hire Students, Anywhere</h2>
             <p>We connect  students to the best opportunities and help companies hire the best student talents.</p>
-            <button className='bg-primary text-white normal-case py-[8px] px-[40px]'> <Link to='/signup'> Join Now </Link> </button>
+            <button className='bg-primary text-white normal-case py-[8px] px-[40px]'> <Link to='/signup'> Get started </Link> </button>
           </div>
           <div className="hero__description--footer">
             <p>Trusted By</p>
