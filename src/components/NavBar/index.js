@@ -15,8 +15,6 @@ function NavBar() {
       <div className="navBar">
         <div className="navBar__left">
           <Link to='/'> <img src={NavLogo} alt="NavLogo" /></Link>
-          <Link to='/' className='hamburgerAlt left'> About </Link>
-          <Link to='/' className='hamburgerAlt left'> How it works </Link>
         </div>
         <div className="navBar__right">
         <Link to='/login' className='hamburgerAlt right'> Sign in </Link>
